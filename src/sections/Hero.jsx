@@ -10,7 +10,7 @@ const Hero = () => {
             <Header />
 
             {/* Hero Body */}
-            <section className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <section className="max-w-7xl mx-auto py-4 px-4 md:py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
                 {/* Left Content */}
                 <motion.div
@@ -23,7 +23,7 @@ const Hero = () => {
                         Hi, I'm Senthil Nathan
                     </h2>
 
-                    <h2 className="text-primary text-7xl font-poppins font-bold">
+                    <h2 className="text-primary text-5xl md:text-7xl font-poppins font-bold">
                         Software <span className="text-accent">Developer</span>
                     </h2>
 
@@ -52,12 +52,12 @@ const Hero = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     viewport={{ once: false, amount: 0.5 }}
-                    className="flex justify-center md:justify-end"
+                    className="flex justify-center pr-4 md:pr-0 md:justify-end"
                 >
                     <img
                         src="/hero-image.jpg"
                         alt="Senthil Nathan"
-                        className="w-80 h-80 md:w-96 md:h-96 object-cover rounded-full shadow-xl"
+                        className="w-72 h-72 md:w-96 md:h-96 object-cover rounded-full shadow-xl"
                     />
                 </motion.div>
 
